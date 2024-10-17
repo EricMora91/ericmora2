@@ -1,0 +1,121 @@
+.itemDetailContainer{
+    align-items: center;
+    border: 1px solid #3C3C3C,;
+    border-radius: 10%;
+    box-shadow: 1px 1px 7px #3C3C3C;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 5%;
+    padding: 5%;
+    text-align: center;
+}
+
+.imgDetail{
+    width: 30%;
+}
+
+.detailName{
+    background-color: #3C3C3C;
+    box-shadow: 1px 1px 7px #3C3C3C;
+    color: whitesmoke;
+    font-weight: lighter;
+    margin: 0;
+    width: 100%;
+}
+
+.description{
+    margin: 2%;
+}
+
+.price{
+    font-size: medium;
+    margin: 1%;
+}
+
+.stock{
+    font-size: small;
+    margin: 0;
+}
+
+.agregar{
+    background-color: #3C3C3C;
+    border: 1.5px solid #3C3C3C;
+    border-radius: 50%;
+    box-shadow: 1px 1px 7px #3C3C3C;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 60%;
+    height: 50px;
+    width: 50px;
+}
+
+.agregar:hover{
+    background-color: whitesmoke;
+    color: #3C3C3C;
+}
+
+.cerrar{
+    padding: 2%;
+}
+
+.x{
+    background-color: white;
+    border: 1.5px solid #3C3C3C;
+    border-radius: 50%;
+    box-shadow: 1px 1px 7px #3C3C3C;
+    color: #3C3C3C;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 60%;
+    height: 25px;
+    justify-content: center;
+    width: 25px;
+    text-decoration: none;
+}
+
+.x:hover{
+    background-color: #3C3C3C;
+    color: white;
+}
+
+@media screen and (min-width: 768px){
+
+    .itemDetailContainer{
+        margin: 1%;
+        width: 50%;
+    }
+
+    .imgDetail{
+        width: 20%;
+    }
+
+    .detailName{
+        font-size: 180%;
+    }
+
+    .description{
+        font-size: 120%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    .itemDetailContainer{
+        width: 30%;
+    }
+
+    .imgDetail{
+        width: 30%;
+    }
+
+    .detailName{
+        font-size: 200%;
+        width: 100%;
+    }
+
+    .description{
+        font-size: 150%;
+    }
+}

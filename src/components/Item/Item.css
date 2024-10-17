@@ -15,6 +15,10 @@
     scale: 1.05;
 }
 
+.itemContainer{
+    text-decoration: none;
+}
+
 .imgItem{
     width: 30%;
 }
@@ -26,13 +30,16 @@
 
 .itemName{
     background-color: black;
+    box-shadow: 1px 1px 7px #3C3C3C;
     color: white;
+    font-weight: lighter;
     width: 100%;
     padding: 1%;
 }
 
 .itemButton{
     background-color: white;
+    box-shadow: 1px 1px 7px #3C3C3C;
     color: #3C3C3C;
     border: 1.5px solid #3C3C3C;
     border-radius: 50%;
